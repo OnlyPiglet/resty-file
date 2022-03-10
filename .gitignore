@@ -39,3 +39,11 @@ luac.out
 *.x86_64
 *.hex
 
+/luarocks
+/lua
+/lua_modules
+/.luarocks
+/node_modules
+
+package-lock.json
+package.json
