@@ -19,3 +19,8 @@ help: Makefile
 .PHONY: commit
 commit:
 	@git cz
+
+## deploy: deploy this module to luarock.org
+.PHONY: deploy
+deploy:
+	@luarocks upload resty-file-dev-1.rockspec --api-key=$(LUAROCKAPIKEY) --force
