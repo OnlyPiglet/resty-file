@@ -13,7 +13,7 @@ This Lua library is for writing file log efficiently.
 
 ```lua
 
-local log = require("log")
+local log = require("file_log")
 local logger = log:new({log_name = "/tmp/test.log",log_level = log.level.info})
 
 logger:info("this is a info msg")
